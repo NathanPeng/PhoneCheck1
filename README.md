@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Test cases
+
+After being directed to `http://localhost:4200/`, you'll see a textbox in which you can type in numbers and submit by clicking the `submit` button on the right side to get the list of possible output and the number of the number variations. For example, when typing in `1234567` and submit, the `number of possibility` below the textbox should be `972` and the list of variations should be listed below it; or if the number typed in is `1524385647`, it might take a second and it is expected to see the `number of possibility` to be 26244 with the list of variations below it. Other test cases: input 6666777, output 5184; input 73657385, output 11664; input 682657840, output 8748.
 
 ## Code scaffolding
 
